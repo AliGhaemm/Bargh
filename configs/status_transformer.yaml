@@ -1,0 +1,33 @@
+feature_cols:
+  - temperature
+  - humidity
+  - dew
+  - apparent_temperature
+  - precipitation
+  - rain
+  - snow
+  - surface_pressure
+  - evapotransporation
+  - wind_speed
+  - wind_direction
+  - value_M
+  - value_P
+  - require
+  - commitment
+  - year_effect
+  - week_effect
+  - hour_effect
+
+target:
+  - status
+
+input_dim: 13
+emb_dim: 32
+num_heads: 2
+num_layers: 4
+output_dim: 26
+past_hours: 168
+future_hours: 24
+feedforward_dim: 512
+dropout: 0.5
+batch_size: 64

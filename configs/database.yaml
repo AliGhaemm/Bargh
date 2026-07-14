@@ -1,0 +1,5 @@
+dbname: bargh
+user: postgres
+password: aghd2091380
+host: localhost
+port: 5432
